@@ -1,0 +1,155 @@
+* {
+	margin : 0px;
+}
+
+div#header {
+	background-color: white;
+	width: 100%;
+	height: 150px;
+}
+
+h1#header {
+    font-family: Serenity;
+    margin-top: 50px;
+    font-size: 100px;
+    text-align: center;
+    padding: auto;
+}
+
+nav{
+    background-color: #c2fcf9;
+    height: 80px;
+    width: 100%; 
+    float: center;
+}
+
+nav ul {
+    margin-right: 50px;
+    text-align: center;
+    font-family: PT Sherif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-top: 35px;
+    margin-right: 50px;
+}
+
+img {
+	width: 30%;
+}
+
+.profilepic {
+	margin-top: 50px;    
+	margin: auto;
+	text-align: center;
+}
+
+h1,p,h4,h3 {
+	text-align: center;
+	margin-top: 15px;
+}
+
+h1, h3, h4 {
+	font-family: kinoa, monospace;
+	font-weight: bold;
+}
+
+h1 {
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+h4{
+    margin-top: 40px;
+}
+
+p {
+	font-family: Times New Roman;
+	margin: auto;
+}
+
+#main {
+	width: 40%;
+    padding-bottom: 50px;
+    word-spacing: 3px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+footer{
+    height: 25px;
+    width: 100%;
+    background-color: skyblue;
+    color: white;
+    padding: 5px;
+    position: relative;
+    margin: auto;
+}
+
+#detailContent {
+	margin-top: 30px;
+	padding-top: 
+}
+
+table {
+	margin-top: 25px;
+    border-collapse: collapse;
+    text-align: center;
+    width: 770px;
+    margin: auto;
+}
+
+th,td{
+    border: 1px solid black;
+    padding: 10px;
+    font-family: sans-serif;
+
+}
+
+th{
+    background-color: #333;
+    color: whitesmoke;
+}
+
+td{
+    background-color: white;
+    color: #2b2e39;
+}
+
+ul.skill, ul.job{
+	margin: auto;
+	width: 40%;
+    padding-bottom: 50px;
+    word-spacing: 3px;
+}
+
+ul.skill li.subSkill {
+	text-transform: bold;
+	text-decoration: underline;
+}
+
+ul.job li.subJob {
+	text-transform: bold;
+	text-decoration: underline;
+}
+
+.directToTask {
+	display: block;
+	margin: auto;
+}
+
+#directToTask {
+	text-decoration: underline;
+	color: red;
+}
