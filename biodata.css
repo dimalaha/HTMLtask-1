@@ -1,0 +1,37 @@
+body {
+	width: 100%;
+	background-color: wheat;
+	font-family: georgia;
+}
+
+
+table { 
+	border-collapse: collapse;
+	width: 60%; 
+	margin: auto;
+	background-color: antiquewhite;
+}
+	
+th,td {
+	border-style: double;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+th {
+	padding:5px;
+	text-align: center;
+}
+	
+td {
+	padding: 5px;
+	text-align: left;
+}
+
+img {
+	width: 125px;
+	float: right;
+	position: absolute;
+	right: 0;
+	padding: 18px 9em;
+}
