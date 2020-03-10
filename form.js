@@ -12,8 +12,8 @@ function hitung() {
 	median();
 }
 
-function average(addElementToArray) {
-	rata = (a+b+c+d+e)/5 
+function average() {
+	rata = (a+b+c+d+e)/5; 
  	form.avg.value = rata;
 }
 
@@ -27,13 +27,13 @@ function median() {
 }
 
 function highest() {
-	var number = [a,b,c,d,e]
+	var number = [a,b,c,d,e];
     var maximal = Math.max.apply(Math, number);
     form.max.value = maximal;
 }
 
 function lowest() {
-	var number = [a,b,c,d,e]
+	var number = [a,b,c,d,e];
     var minimum = Math.min.apply(Math, number);
     form.min.value = minimum;
 }
