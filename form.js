@@ -22,8 +22,8 @@ function median() {
   	number.sort((a,b)=> a-b);
   	var lowMiddle = Math.floor((number.length -1)/2);
   	var highMiddle = Math.ceil((number.length -1)/2);
-  	var hasilmedian = (number[lowMiddle] + number[highMiddle]) /2;
-  	form.med.value = hasilmedian;
+  	var median = (number[lowMiddle] + number[highMiddle]) /2;
+  	form.med.value = median;
 }
 
 function highest() {

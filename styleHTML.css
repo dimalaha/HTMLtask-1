@@ -95,6 +95,7 @@ footer{
     padding: 5px;
     position: relative;
     margin: auto;
+    
 }
 
 #detailContent {
@@ -147,9 +148,28 @@ ul.job li.subJob {
 .directToTask {
 	display: block;
 	margin: auto;
+    padding: auto;
+    text-align: center;
 }
 
 #directToTask {
 	text-decoration: underline;
 	color: red;
+}
+
+form {
+    font-family: Serenity;
+    text-transform: uppercase;
+}
+
+.button{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+p.out {
+    padding: 5px;
+    background-color: red;
+
 }
