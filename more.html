@@ -1,32 +1,69 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>My Autobiography</title>
+  <head>
+    <title>My Autobiography</title>
 	<link rel="stylesheet" href="styleHTML.css">
-</head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  </head>
 
-<body>
+  <body>
+    <!-- bagian header judul Little Miss Sunshine-->
+    <div id="header">
+      <h1 id="header">Little Miss Sunshine</h1>
+    </div>
 
-<!-- bagian header judul Little Miss Sunshine-->
-<div id="header">
-	<h1 id="header">Little Miss Sunshine</h1>
-</div>
+    <!-- bagian navigasi bar-->
+    <div id="navigation">
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">Personal Detail</a></li>
+          <li><a href="more.html">Automata Theory</a></li>
+          <li><a href="main.html">Task</a></li>
+        </ul>
+      </nav>
+    </div>
 
+    <h3>Teori Bahasa dan Otomata</h3>
+    <p id="main">
+      Teori Otomata adalah teori mengenai mesin-mesin abstrak, dan berkaitan
+      erat dengan teori bahasa formal. ada beberapa hal yang berkaitan dengan
+      Otomata, yaitu Grammar. Grammar adalah bentuk abstrak yang dapat diterima
+      (accept) untuk membangkitkan suatu kalimat otomata berdasarkan suatu
+      aturan tertentu.
+    </p>
 
-<!-- bagian navigasi bar-->
-<div id="navigation">
-<nav>
-	<ul>
-		<li><a href="home.html">Home</a></li>
-		<li><a href="about.html">Personal Detail</a></li>
-		<li><a href="more.html">More</a></li>
-		<li><a href="main.html">Task</a></li>
-	</ul>
-</nav>
-</div>
+    <p id="main">
+      Teori bahasa membicarakan bahasa formal (formal languange), terutama untuk
+      kepentingan perancangan kompilator (compiler) dan pemroses naskah (text
+      processor). Bahasa formal adalah kumpulan kalimat. Semua kalimat dalam
+      sebuah bahasa dibangkitkan oleh sebuah tata bahasa (grammar) yang sama.
+      Sebuah bahasa formal bisa dibangkitkan oleh dua atau lebih tata bahasa
+      yang berbeda. Dikatakan bahasa formal karena grammar diciptakan mendahului
+      pembangkitan setiap kalimatnya. Bahasa manusia bersifat sebaliknya.
+	</p>
+	
+	<p id="main">
+		Ada beberapa konsep penting dalam teori otomata, yaitu:
+		<ul class="skill">
+			<li class="subSkill">Anggota alfabet dinamakan simbol terminal</li>
+			<li class="subSkill">Kalimat adalah deretan hingga simbol - simbol terminal</li>
+			<li class="subSkill">Bahasa adalah himpunan Kalimat - Kalimat.</li>
+			<li class="subSkill">String adalah suatu deretan berhingga dari simbol - simbol , contoh : 'a','b','c' adalah simbol dan 'abc' adalah sebuah string.</li>
+			<li class="subSkill">Simbol -Simbol terminal . Seperti : Huruf kecil (a,b,c) , Simbol Operator (+ dan *), Simbol tanda baca ( , dan ; ) dan String yang bercetak tebal. Contohnya adalah if, then dan else.</li>
+			<li class="subSkill"i>Simbol - simbol non terminal / Variabel, seperti : Huruf besar (A, B, C) , huruf S sebagai simbol awal , String yang tercetak miring (expr)</li>
+			<li class="subSkill">Sentensial adalah string yang tersusun atas simbol-simbol terminal atau simbol-simbol non terminal atau campuran keduanya.</li>
+		</ul>
+	</p>
 
-	<p>Coming soon.. stay tune :)</p>
+	<p id="main">
+		Secara garis besar ada dua fungsi automata dalam hubungannya dengan bahasa, yaitu  fungsi automata sebagai pengenal (RECOGNIZER) string-string dari suatu bahasa, dalam hal ini bahasa sebagai masukan dari automata, danfungsi automata sebagai pembangkit (GENERATOR) string-string dari suatu
+		bahasa, dalam hal ini bahasa sebagai keluaran dari automata.
+	</p>
 
+	<p id="main">
+		Contoh penerapan bahasa dan otomata dalam kehidupan sehari-hari adalah penggunaan mesin ATM. Suatu mesin ATM meminta dan mebaca input dari user, lalu mencocokkannya dalam database bank dan menghasilkan output berupa uang yang diminta atau keterangan lain.
+	</p>
 
-</body>
+  </body>
 </html>
